@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, sans-serif;
+    height: 100vh;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.login-container{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 20px rgb(0,0,1);
+    background-color: white;
+}
+
+.login-container .login-photo img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+}
+
+
+.login-container h2{
+    color:rgb(99, 148, 150);
+    font-size: 30px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"]{
+    width:90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.login-container .remember-me{
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.login-container .forget{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.login-container .forget a{
+    text-decoration: none;
+}
+
+.login-container .forget a:hover{
+    text-decoration: underline;
+}
+
+.login-container .login input[type="submit"]{
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border:  2px solid gray;
+    background: gray;
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgb(0,0,1);
+}
+
+.login-container .login input[type="submit"]:hover{
+    background: rgb(65, 63, 63);
+    color: white;
+    cursor: pointer;
+}
+
+.login-container .sign-up{
+    text-align: right;
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.login-container .sign-up a{
+    text-decoration: none;
+}
+
+.login-container .sign-up a:hover{
+    text-decoration: underline;
+}
